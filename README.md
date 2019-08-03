@@ -1,10 +1,10 @@
-stuff for pure-ftp in cygwin
-ftpservice.sh: bash-script for starting|stopping and asking status - if pure-ftpd is running or not;
+stuff for pure-ftp in cygwin;
+Here - ftpservice.sh: bash-script for starting|stopping and asking status - if pure-ftpd is running or not;
 
 notes about preparationing and launching pure-ftp on cygwin
-https://gathering.tweakers.net/forum/list_messages/887361
-https://download.pureftpd.org/pub/pure-ftpd/doc/README.Windows
-```
+1. https://gathering.tweakers.net/forum/list_messages/887361
+2. https://download.pureftpd.org/pub/pure-ftpd/doc/README.Windows
+```bash
 mkdir /home/ftpuser
 user_name="ftpuser"
 user_pwd="..."
