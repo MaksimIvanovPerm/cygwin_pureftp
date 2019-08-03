@@ -1,10 +1,10 @@
-# cygwin_pureftp
 stuff for pure-ftp in cygwin
 ftpservice.sh: bash-script for starting|stopping and asking status - if pure-ftpd is running or not;
 
 notes about preparationing and launching pure-ftp on cygwin
-#https://gathering.tweakers.net/forum/list_messages/887361
-#https://download.pureftpd.org/pub/pure-ftpd/doc/README.Windows
+https://gathering.tweakers.net/forum/list_messages/887361
+https://download.pureftpd.org/pub/pure-ftpd/doc/README.Windows
+```
 mkdir /home/ftpuser
 user_name="ftpuser"
 user_pwd="..."
@@ -22,4 +22,4 @@ pure-ftpd --bind localhost,3131 -4 -H -E -B -d -O stats:/cygdrive/c/Temp/pure_ft
 echo "new pure-ftpd instance is: `cat /var/run/pure-ftpd.pid`"
 
 watch -d -n 2 pure-ftpwho.exe -n -v
-
+```
